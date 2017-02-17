@@ -24,7 +24,7 @@ Component is documented using the Aura documentation.
 You can access it from this URL (replace the domain):
 https://<b>&lt;YOUR_DOMAIN&gt;</b>.lightning.force.com/auradocs/reference.app#reference?descriptor=ui_popover:popover&defType=component
 
-# Sample application
+## Sample application
 Paste the following code in a new Lightning Application to try it out:
 
 ``` xml
