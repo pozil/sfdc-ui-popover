@@ -15,7 +15,7 @@ The Lightning Popover component provides the following features:
 ## Install
 Install the Lightning Popover component as a managed package by clicking on this button:
 
-<a href="https://login.salesforce.com/packaging/installPackage.apexp?p0=04t0Y000000xSXm">
+<a href="https://login.salesforce.com/packaging/installPackage.apexp?p0=04t0Y000000xSc3">
   <img src="gfx/btn-install.png" width="100" alt="Install">
 </a>
 
