@@ -1,0 +1,16 @@
+.THIS.anchor {
+    position: relative;
+    display: inline-block;
+}
+
+.THIS .slds-popover {
+    position: absolute;
+    bottom: calc(100% + 14px);
+    left: calc(50% - 25px);
+    display: none;
+    white-space: normal;
+}
+
+.THIS.anchor:hover .slds-popover {
+    display: block;
+}

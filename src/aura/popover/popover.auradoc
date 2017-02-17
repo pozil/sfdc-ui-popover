@@ -1,0 +1,24 @@
+<aura:documentation>
+	<aura:description>
+        <p>A <code>ui_popover:popover</code> component that displays a popover (tooltip).</p>
+<pre>&lt;ui_popover:popover&gt;
+    &lt;aura:set attribute="popoverBody"&gt;
+        - popover body goes here -
+    &lt;/aura:set&gt;
+    - content triggering popover goes here -
+&lt;/ui_popover:popover&gt;</pre>
+        
+        <h4>Sample code</h4>
+        <p>The following example displays a popover when the user hovers on a link placed in a sentence.</p>
+<pre>&lt;div&gt;Note that&amp;amp;nbsp;
+&lt;ui_popover:popover&gt;
+    &lt;aura:set attribute="popoverBody"&gt;
+        &lt;h3 class="slds-section-title"&gt;The Popover Title&lt;/h3&gt;
+        &lt;p class="slds-m-bottom--x-small"&gt;Some textual description or any kind of markup including other components.&lt;/p&gt;
+    &lt;/aura:set&gt;
+    &lt;a href="javascript:void(0);"&gt;hovering this content (not necessarily a link) triggers the popover&lt;/a&gt;
+&lt;/ui_popover:popover&gt;
+&amp;amp;nbsp;and it renders really nicely with SLDS.&lt;/div&gt;</pre>
+        
+    </aura:description>
+</aura:documentation>
