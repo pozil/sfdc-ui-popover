@@ -30,15 +30,17 @@ Paste the following code in a new Lightning Application to try it out:
 ``` xml
 <aura:application extends="force:slds">
 	<div class="slds-grid slds-grid--frame slds-grid--align-center slds-grid--vertical-align-center">
+		
 		<div>Note that&nbsp;
-	    <ui_popover:popover>
-		<aura:set attribute="popoverBody">
-		    <h3 class="slds-section-title">The Popover Title</h3>
-		    <p class="slds-m-bottom--x-small">Some textual description or <b>any</b> kind of markup including other components.</p>
-		</aura:set>
-		<a href="javascript:void(0);">hovering over this content (not necessarily a link) triggers the popover</a>
-	    </ui_popover:popover>
+		    <ui_popover:popover>
+			<aura:set attribute="popoverBody">
+			    <h3 class="slds-section-title">The Popover Title</h3>
+			    <p class="slds-m-bottom--x-small">Some textual description or <b>any</b> kind of markup including other components.</p>
+			</aura:set>
+			<a href="javascript:void(0);">hovering over this content (not necessarily a link) triggers the popover</a>
+		    </ui_popover:popover>
 	&nbsp;and it renders really nicely with SLDS.</div>
+	
 	</div>
 </aura:application>
 ```
