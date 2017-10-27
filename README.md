@@ -6,6 +6,8 @@
 This is a generic popover (tooltip) component built using Salesforce Lightning.<br/>
 This component is built with [SLDS](https://www.lightningdesignsystem.com/) style and does not rely on third party libraries.
 
+Please use [lightning:helptext](https://releasenotes.docs.salesforce.com/en-us/winter18/release-notes/rn_lc_components.htm) (a Winter '18 base Lightning component) instead of this component if you only plan to include text it the tooltip.
+
 <b>Features</b>
 
 The Lightning Popover component provides the following features:
