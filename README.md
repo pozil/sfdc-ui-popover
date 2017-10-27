@@ -1,6 +1,11 @@
-# Salesforce Lightning Popover Component
+# Salesforce Lightning Popover Component (Deprecated)
 
 <img src="screenshots/media-example.png" width="300" align="right"/>
+
+**WARNING:** this component is deprectated.<br/>
+It is replaced by official Winter '18 built-in components:
+- [lightning:helptext](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/aura_compref_lightning_helptext.htm) for text only tooltips
+- [lightning:overlayLibrary](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/ref_lightning_overlayLibrary.htm) for media tooltips
 
 ## About
 This is a generic popover (tooltip) component built using Salesforce Lightning.<br/>
